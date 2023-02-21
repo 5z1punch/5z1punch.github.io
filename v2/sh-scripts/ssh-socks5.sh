@@ -1,0 +1,1 @@
+ssh -CqTnN -D localhost:1080  aaa@HostB
