@@ -11,5 +11,22 @@
     "**/node_modules": true,
     "**/build": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "strings": "on",
+      "comments": "on",
+      "other": "on"
+    }
+  },
+  "[mdx]": {
+    "editor.quickSuggestions": {
+      "strings": "on",
+      "comments": "on",
+      "other": "on"
+    }
+  },
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
 }

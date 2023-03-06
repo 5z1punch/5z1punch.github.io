@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" points="38.388 7.502 59.454 7.502 29.402 143.481 9.804 143.481"/>
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" points="66.164 7.949 106.421 7.949 114.472 17.342 105.973 51.784 56.77 52.679"/>
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" points="123.418 58.941 105.057 58.941 87.187 141.245 67.053 141.245"/>
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" points="53.639 60.731 70.189 60.731 91.66 97.857"/>
+  <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 3px;" points="98.816 112.17 115.367 141.245 134.601 141.245"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 3px;" cx="36.194" cy="6.843" rx="3.131" ry="3.131"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 3px;" cx="137.837" cy="141.35" rx="3.131" ry="3.131"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 3px;" cx="7.673" cy="142.929" rx="3.131" ry="3.131"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 3px;" cx="126.655" cy="58.494" rx="3.131" ry="3.131"/>
+</svg>
