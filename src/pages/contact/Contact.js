@@ -1,4 +1,5 @@
 import { Button } from 'components/Button';
+import { Link } from 'components/Link';
 import { DecoderText } from 'components/DecoderText';
 import { Divider } from 'components/Divider';
 import { Footer } from 'components/Footer';
@@ -126,19 +127,13 @@ export const Contact = () => {
                 </div>
               )}
             </Transition>
-            <Button
-              className={styles.button}
-              data-status={status}
-              data-sending={sending}
-              style={getDelay(tokens.base.durationM, initDelay)}
-              disabled={sending}
-              loading={sending}
-              loadingText="Sending..."
-              icon="send"
-              type="submit"
-            >
-              Send message
-            </Button>
+            <div className={styles.formErrorMessage}>
+              <Icon className={styles.formErrorIcon} icon="error" />
+              <Link href="mailto:th3s3v3n.shell@gmail.com" secondary={true}>
+                Migrating functions to nostr, please send me an email 👉
+                th3s3v3n.shell@gmail.com .
+              </Link>
+            </div>
           </form>
         )}
       </Transition>
