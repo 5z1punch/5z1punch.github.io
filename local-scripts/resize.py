@@ -21,7 +21,8 @@ class Compress_img:
         # 方法一：使用resize改变图片分辨率，但是图片内容并不丢失，不是裁剪
         if way == 1:
             # img_resize = img.resize((int(w*compress_rate), int(h*compress_rate)))
-            img_resize = img.resize((1920, 1080))
+            img_resize = img.resize((80, 80))
+            # img_resize = img.resize((1920, 1080))
             resize_w, resieze_h = img_resize.size
             # color depth bit
             # - 8 bit: img.convert("P", palette=Image.ADAPTIVE, colors=8)

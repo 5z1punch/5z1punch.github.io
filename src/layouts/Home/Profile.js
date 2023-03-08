@@ -1,5 +1,5 @@
 import profileKatakana from 'assets/katakana-profile.svg?url';
-import profileImgLarge from 'assets/profile-large.jpg';
+// import profileImgLarge from 'assets/profile-large.jpg';
 import profileImgPlaceholder from 'assets/profile-placeholder.jpg';
 import profileImg from 'assets/profile.jpg';
 import { Button } from 'components/Button';
@@ -21,16 +21,24 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Ronny, just a Cyber/Punk. I love games, <i>StarCraft</i>/<i>The Witcher 3</i>, I
+      play guitar and I have two turtles🐢. I used to have a hedgehog named Pipi. But he
+      died tragically when he was four. I miss him, very much.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I am a nihilist, a anarchist. I believe in Web3, or you can say it the Encrypt
+      Social Contract. The term is not invented by myself. We believe that the current gov
+      system and even the family system will be replaced by a new form of social contract
+      when the productivity reaches the next level. I believe it, so I work for it.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      I previously worked for the top security company and laboratory in China. However,
+      the quesion is, whats the value of the security work and research for a
+      &#34;company&#34;? I cant find the answer, and finally the commute killed me. So I
+      decide to hack just for myself. Now I am freelancer. You can find my technology
+      stack and achievements at <Link href=""></Link>. So if you have any quests for code
+      audit / pentest / bug hunting of Web3 / traditional web / Cloud / Android, tell
+      me📩👇.
     </Text>
   </Fragment>
 );
@@ -82,9 +90,9 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   reveal
                   delay={100}
                   placeholder={profileImgPlaceholder}
-                  srcSet={[profileImg, profileImgLarge]}
+                  srcSet={[profileImg]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Torii on Miyajima, an island off the coast of Hiroshima in Japan"
+                  alt="This is Pipi."
                 />
                 <svg
                   aria-hidden="true"

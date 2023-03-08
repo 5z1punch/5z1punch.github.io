@@ -1,6 +1,6 @@
 export const navLinks = [
   {
-    label: 'Projects',
+    label: 'TechStack',
     pathname: '/#project-1',
   },
   {
@@ -20,17 +20,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
+    url: 'https://twitter.com/RonnyX2017',
     icon: 'twitter',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
+    label: 'Email',
+    url: 'mailto:th3s3v3n.shell@gmail.com',
+    icon: 'email',
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/5z1punch',
     icon: 'github',
   },
 ];

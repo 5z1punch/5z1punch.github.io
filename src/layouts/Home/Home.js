@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = ['Hacker☠', 'Researcher🕵️‍♂️', 'Guitarist🎸', 'Potato🥔'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -68,9 +68,9 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
-          apps with a focus on motion, experience design, and accessibility."
+        title="Just a CyberPunk"
+        description="Security research portfolio of Ronny Xing — not a hacker, not a researcher, 
+        just a cyber punk running on the edge of the network and society."
       />
       <Intro
         id="intro"
@@ -83,9 +83,9 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
-        buttonText="View project"
+        title="What's WEB3 Security?"
+        description="Just codeview for solidity? No, WEB3 for everything, everything for WEB3."
+        buttonText="View my Tech-Stack"
         buttonLink="/projects/smart-sparrow"
         model={{
           type: 'laptop',
@@ -100,14 +100,34 @@ export const Home = () => {
       />
       <ProjectSummary
         id="project-2"
-        alternate
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
-        buttonText="View website"
+        title="Penetration"
+        description="Hack web servers / clouds / apps, discover and exploit 0days, a little knowledge for red team."
+        buttonText="View my Tech-Stack"
         buttonLink="https://gamestack.hamishw.com"
+        model={{
+          type: 'laptop',
+          alt: 'Annotating a biomedical image in the Slice app',
+          textures: [
+            {
+              srcSet: [sliceTexture, sliceTextureLarge],
+              placeholder: sliceTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-3"
+        alternate
+        sectionRef={projectThree}
+        visible={visibleSections.includes(projectThree.current)}
+        index={3}
+        title="Hack Android Apps"
+        description="I hacked 1.5 billion phones due to I exploited Wechat / Alipay / ... , I built some analysis tools based on the AOSP / Frida."
+        buttonText="View my work"
+        buttonLink="/projects/slice"
         model={{
           type: 'phone',
           alt: 'App login screen',
@@ -119,26 +139,6 @@ export const Home = () => {
             {
               srcSet: [gamestackTexture2, gamestackTexture2Large],
               placeholder: gamestackTexture2Placeholder,
-            },
-          ],
-        }}
-      />
-      <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
-        buttonText="View project"
-        buttonLink="/projects/slice"
-        model={{
-          type: 'laptop',
-          alt: 'Annotating a biomedical image in the Slice app',
-          textures: [
-            {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
             },
           ],
         }}

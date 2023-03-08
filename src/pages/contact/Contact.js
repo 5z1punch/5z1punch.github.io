@@ -67,7 +67,7 @@ export const Contact = () => {
     <Section className={styles.contact}>
       <Meta
         title="Contact"
-        description="Send me a message if you’re interested in discussing a project or if you just want to say hi"
+        description="Send me a message if you’re interested in discussing a project / a quest or if you just want to say hi"
       />
       <Transition unmount in={!complete} timeout={1600}>
         {(visible, status) => (

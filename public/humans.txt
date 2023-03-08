@@ -1,29 +1,24 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+RX
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+HACKER | CYBERPUNK
 
-Hamish Williams
-Hand crafted design & web development
+Ronny Xing
+Researcher & ...
 
 Design tools:
-Figma
-Photoshop
-Blender
+...
 
-twitter.com/hamishmw
-github.com/hamishmw
+twitter.com/RonnyX2017
+github.com/5z1punch
 
 _______________________________________________________________________________
 
-TECHNOLOGY | テクノロジー
+TECHNOLOGY
 
 React
 Next.js
@@ -32,7 +27,7 @@ Framer Motion
 
 _______________________________________________________________________________
 
-FONTS | フォント
+FONTS
 
 Gotham
 Hiragino Kaku Gothic
