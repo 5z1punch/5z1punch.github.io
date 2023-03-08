@@ -160,6 +160,7 @@ export const Navbar = () => {
                 data-navbar-item
                 className={styles.navLink}
                 aria-current={getCurrent(pathname)}
+                target={pathname.startsWith('https://') ? '_blank' : '_self'}
                 onClick={handleNavItemClick}
               >
                 {label}
@@ -178,6 +179,7 @@ export const Navbar = () => {
                   className={styles.mobileNavLink}
                   data-visible={visible}
                   aria-current={getCurrent(pathname)}
+                  target={pathname.startsWith('https://') ? '_blank' : '_self'}
                   onClick={handleMobileNavClick}
                   style={cssProps({
                     transitionDelay: numToMs(

@@ -15,6 +15,10 @@ export const navLinks = [
     label: 'Contact',
     pathname: '/contact',
   },
+  {
+    label: 'Toolbox',
+    pathname: 'https://5z1punch.github.io/',
+  },
 ];
 
 export const socialLinks = [
