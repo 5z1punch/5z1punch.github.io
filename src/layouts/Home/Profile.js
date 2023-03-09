@@ -36,9 +36,9 @@ const ProfileText = ({ visible, titleId }) => (
       the quesion is, whats the value of the security work and research for a
       &#34;company&#34;? I cant find the answer, and finally the commute killed me. So I
       decide to hack just for myself. Now I am freelancer. You can find my technology
-      stack and achievements at <Link href=""></Link>. So if you have any quests for code
-      audit / pentest / bug hunting of Web3 / traditional web / Cloud / Android, tell
-      me📩👇.
+      stack and achievements at <Link href="/#project-1">TechStack</Link>. So if you have
+      any quests for code audit / pentest / bug hunting of Web3 / traditional web / Cloud
+      / Android, tell me📩👇.
     </Text>
   </Fragment>
 );

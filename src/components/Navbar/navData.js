@@ -17,7 +17,7 @@ export const navLinks = [
   },
   {
     label: 'Toolbox',
-    pathname: 'https://5z1punch.github.io/',
+    pathname: 'https://tool.sh3ll.plus/',
   },
 ];
 
