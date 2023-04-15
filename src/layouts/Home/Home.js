@@ -86,7 +86,7 @@ export const Home = () => {
         title="What's WEB3 Security?"
         description="Just codeview for solidity? No, WEB3 for everything, everything for WEB3."
         buttonText="View my Tech-Stack"
-        buttonLink="/projects/smart-sparrow"
+        buttonLink="/projects/coming-soon"
         model={{
           type: 'laptop',
           alt: 'Smart Sparrow lesson builder',
@@ -104,9 +104,9 @@ export const Home = () => {
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
         title="Penetration"
-        description="Hack web servers / clouds / apps, discover and exploit 0days, a little knowledge for red team."
+        description="Hack web servers / clouds / apps, find and exploit 0days, a little knowledge for red team."
         buttonText="View my Tech-Stack"
-        buttonLink="https://gamestack.hamishw.com"
+        buttonLink="/projects/coming-soon"
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
@@ -127,7 +127,7 @@ export const Home = () => {
         title="Hack Android Apps"
         description="I hacked 1.5 billion phones due to I exploited Wechat / Alipay / ... , I built some analysis tools based on the AOSP / Frida."
         buttonText="View my work"
-        buttonLink="/projects/slice"
+        buttonLink="/projects/coming-soon"
         model={{
           type: 'phone',
           alt: 'App login screen',
