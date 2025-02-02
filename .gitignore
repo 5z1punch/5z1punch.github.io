@@ -1,5 +1,6 @@
 # mine
 raw-material
+.DS_Store
 # Logs
 logs
 *.log

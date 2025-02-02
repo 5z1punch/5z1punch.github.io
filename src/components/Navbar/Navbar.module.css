@@ -53,6 +53,7 @@
   flex-direction: row-reverse;
   position: relative;
   top: calc(var(--spaceM) * -1);
+  height: 50px;
 }
 
 .navLink {
@@ -107,6 +108,7 @@
   justify-content: center;
   position: relative;
   z-index: var(--zIndex2);
+  height: 50px;
 
   @media (--mediaMobile), (--mediaMobileLS) {
     flex-direction: row;

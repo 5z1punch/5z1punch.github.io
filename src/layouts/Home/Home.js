@@ -18,7 +18,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Hacker☠', 'Researcher🕵️‍♂️', 'Guitarist🎸', 'Potato🥔'];
+const disciplines = ['Hacker☠', 'Researcher'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -84,7 +84,7 @@ export const Home = () => {
         visible={visibleSections.includes(projectOne.current)}
         index={1}
         title="What's WEB3 Security?"
-        description="Just codeview for solidity? No, WEB3 for everything, everything for WEB3."
+        description="Just audit for smart contracts? No, WEB3 for everything, everything for WEB3."
         buttonText="View my Tech-Stack"
         buttonLink="/projects/coming-soon"
         model={{

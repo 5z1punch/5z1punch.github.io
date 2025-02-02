@@ -21,21 +21,21 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Ronny, just a Cyber/Punk. I love games, <i>StarCraft</i>/<i>The Witcher 3</i>, I
-      play guitar and I have two turtles🐢. I used to have a hedgehog named Pipi. But he
-      died tragically when he was four. I miss him, very much.
+      I’m Ronny, just a Cyber/Punk. I have two turtles🐢. I used to have a hedgehog named
+      Pipi. But he died tragically when he was four. I miss him, very much.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I am a nihilist, a anarchist. I believe in Web3, or you can say it the Encrypt
-      Social Contract. The term is not invented by myself. We believe that the current gov
-      system and even the family system will be replaced by a new form of social contract
-      when the productivity reaches the next level. I believe it, so I work for it.
+      I am a nihilist, a anarchist. I believe that the current gov system and even the
+      family system will be replaced by a new form of social contract when the
+      productivity reaches the next level. I believe it, so I work for it.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       I previously worked for the top security company and laboratory in China. However,
       the quesion is, whats the value of the security work and research for a
       &#34;company&#34;? I cant find the answer, and finally the commute killed me. So I
-      decide to hack just for myself. Now I am freelancer. You can find my technology
+      decide to hack just for myself, for the community, for anyone who really respects
+      the vaule of our work. Eventually Siji and I founded{' '}
+      <Link href="https://offside.io/">Offside Labs</Link>. You can find my technology
       stack and achievements at <Link href="/#project-1">TechStack</Link>. So if you have
       any quests for code audit / pentest / bug hunting of Web3 / traditional web / Cloud
       / Android, tell me📩👇.
